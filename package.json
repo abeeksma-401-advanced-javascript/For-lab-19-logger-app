@@ -1,0 +1,28 @@
+{
+  "name": "for-lab-19-logger-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eventHub.js",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeeksma-401-advanced-javascript/For-lab-19-logger-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeeksma-401-advanced-javascript/For-lab-19-logger-app/issues"
+  },
+  "homepage": "https://github.com/abeeksma-401-advanced-javascript/For-lab-19-logger-app#readme"
+}
