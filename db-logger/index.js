@@ -17,7 +17,7 @@ db.subscribe('update', payload => {
 });
 
 db.subscribe('delete', payload => {
-  console.log(payload, 'HAS BEEN DESTROYED! KILLED!! REMOVED FROM EXISTANCE!!!')
+  console.log(payload, 'HAS BEEN DESTROYED! KILLED!! REMOVED FROM EXISTANCE!!!');
 });
 
 db.subscribe('auth', payload => {
