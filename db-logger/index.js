@@ -1,6 +1,6 @@
 'use strict';
 
-const Q = require('@nmq/q/server');
+const Q = require('@nmq/q/client');
 
 const db = new Q('database');
 
